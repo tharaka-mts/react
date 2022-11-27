@@ -116,6 +116,7 @@ function renderToReadableStream(
 
 function renderToNodeStream() {
   throw new Error(
+    //Error Message
     'ReactDOMServer.renderToNodeStream(): The Node Stream API is not available ' +
       'in Bun. Use ReactDOMServer.renderToReadableStream() instead.',
   );
@@ -123,6 +124,7 @@ function renderToNodeStream() {
 
 function renderToStaticNodeStream() {
   throw new Error(
+    //Error Message
     'ReactDOMServer.renderToStaticNodeStream(): The Node Stream API is not available ' +
       'in Bun. Use ReactDOMServer.renderToReadableStream() instead.',
   );
